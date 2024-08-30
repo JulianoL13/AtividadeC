@@ -24,13 +24,13 @@ int main() {
     livro1->nSerie = 1234567891;
 
     printf("Entre com o nome do aluno: ");
-    scanf("%s", aluno1->nome); 
+    scanf("%50s", aluno1->nome); 
 
     printf("Entre com a idade do aluno: ");
     scanf("%d", &aluno1->idade); 
 
     printf("Entre com a matricula do aluno: ");
-    scanf("%s", aluno1->matricula); 
+    scanf("%12s", aluno1->matricula); 
 
     aluno1->livroEscolhido = *livro1; 
 
